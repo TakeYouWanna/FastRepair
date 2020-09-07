@@ -1,0 +1,38 @@
+header{
+	height: auto;
+	width: 100%;
+	display: flex;
+	background:rgba(42, 51, 212,0.9);
+	justify-content: space-around;
+	align-items: center;
+	margin: 0px;
+}
+
+header h1{
+	color:white;
+	font-size: 40px;
+	font-family:"Impact", fantasy;
+}
+
+header div{
+	flex-direction: column;
+	color: white;
+	flex-wrap: nowrap;
+	font-size: 17px;
+}
+
+header div p{
+	display: flex;
+	align-items: center;
+}
+
+header div p img{
+	margin: 5px;
+}
+
+.none{
+	text-decoration: none;
+
+}
+
+

@@ -1,0 +1,73 @@
+main {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+
+
+.maps{
+	width:350px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.graphic{
+	width: 100%;
+	height: auto;
+	background:rgba(42, 51, 212,0.9);
+	color: white;
+	font-size: 20px;
+	font-family:"Bradley Hand", cursive;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items:center;
+	padding: 0px 0px 20px 0px;
+	margin-top: 30px;
+	
+}
+
+.maindiv{
+	width:700px;
+	margin:0px 20px 0px 20px;	
+}
+
+.info{
+	display: flex;
+	flex-direction:row;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+}
+
+.remont{
+	text-align: center;
+	color:rgb(245, 134, 7);
+	font-family:"Bradley Hand", cursive;
+}
+
+.kachestva{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	color:rgb(245, 134, 7);
+	font-size: 20px;
+	font-family:"Bradley Hand", cursive;
+}
+
+.kachestva img{
+	width: 100px;
+}
+
+.kachestva p{
+	display:flex;
+	align-items: center;
+}
+
+
+
